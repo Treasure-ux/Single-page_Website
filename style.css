@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo img{
+    width: 200px;
+    margin-left: 90px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0;
+    margin-right: 100px;
+}
+nav ul li{
+    list-style: none;
+}   
+nav ul li a{
+    text-decoration: none;
+    color: rgb(187, 182, 182);
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: rgba(245, 145, 15, 0.999);
+}
+ .container{
+    width: 100%;
+    height: 750px;
+    background-image:linear-gradient(rgba(222, 73, 73, 0.485)), url("/images/pexels-jbigallery-17184404.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container h2{
+    padding-top:250px;
+    font-size: 70px;
+    font-family: "Playfair Display", serif;
+    color: white;
+    text-align: center;
+    cursor: auto;
+}
+.container p{
+    padding-top: 40px;
+    font-size: 30px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    cursor: auto;
+}
+.btn-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+}
+.btn-container button{
+    padding: 15px;
+    border-radius:25px;
+    border: none;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(252, 251, 251);  
+    cursor: pointer;
+}
+.btn1 button{
+    background-color: black;
+}
+.btn1 button:hover{
+    background-color:rgba(245, 145, 15, 0.999);
+}
+.btn2 button{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.btn2 button:hover{
+    background-color:white;
+    color: black;
+    border: none;
+}
+.hero{
+    background-color: rgb(187, 182, 182);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    gap: 70px;
+    padding-left:120px;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.hero .image{
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    background-image: url("../images/jason-briscoe-GliaHAJ3_5A-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about h4{
+    color:  rgba(147, 69, 20, 0.999);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 15px;
+    cursor: auto;
+}
+.about h2{
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    cursor: auto;
+    font-size: 55px;
+    padding-top: 5px;
+    font-weight:200;
+    cursor: auto;
+}
+.about p{
+    font-size: 23px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(62, 29, 9, 0.999) ;
+    padding-right: 70px;
+    max-width: 700px;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    cursor: auto;
+
+}
+.img{
+    display: flex;
+    gap: 15px;
+}
+.img1{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    background-image: url("/images/algivari-rizchy-gcPvNjOslaQ-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img2{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    background-image: url("/images/rafly-alfaridzy-mSupi19KDC4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img3{
+    width: 195px;
+    height: 100px;
+    border-radius: 15px;
+    background-image: url("/images/vladimir-gladkov-d1hKXgFJUKw-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.philosophy{
+    background-color: black;
+    width: 100%;
+    height: 650px;
+    padding-left:120px;
+    padding-top: 60px;
+    box-sizing: border-box; 
+}
+.philosophy h4{
+    color: rgba(245, 145, 15, 0.999);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    cursor: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.philosophy h2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    cursor: auto;
+    font-size: 55px;
+    padding-top: 10px;
+    font-weight:200;
+    cursor: auto;
+    color: white;
+    padding-bottom: 60px;
+}
+.hero2{
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+.hero2 .image{
+    width: 650px;
+    height: 400px;
+    border-radius: 15px;
+    background-image: url("/images/vladimir-gladkov-d1hKXgFJUKw-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.hero2 .img-text h3{
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    cursor: auto;
+    font-size: 32px;
+    padding-top: 10px;
+    font-weight:200;
+    cursor: auto;
+    color: white;
+    
+}
+.img-text p{
+    font-size: 25px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 182, 182); 
+    padding-right: 70px;
+    max-width: 660px;
+    line-height: 1.5;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    cursor: auto;
+}
+.creation{
+    background-color: black;
+    width: 100%;
+    height: 750px;
+    padding-left:120px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.text h3{
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    cursor: auto;
+    font-size: 32px;
+    padding-top: 10px;
+    font-weight:200;
+    cursor: auto;
+    color: white; 
+}
+.text p{
+    font-size: 25px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 182, 182); 
+    max-width: 640px;
+    line-height: 1.5;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    cursor: auto;
+}
+.images .large-image{
+    background-image: url("../images/jason-briscoe-GliaHAJ3_5A-unsplash.jpg");
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.small-images{
+    display: flex;
+    gap: 10px;
+}
+
+.small-images1{
+    background-image:url("images/pexels-jbigallery-17184404.jpg");
+    width: 200px;
+    height: 100px;
+    margin-top: 35px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.small-images2{
+    background-image: url("/images/algivari-rizchy-gcPvNjOslaQ-unsplash.jpg");
+    width: 200px;
+    height: 100px;
+    margin-top: 35px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.small-images3{
+    background-image: url("/images/rafly-alfaridzy-mSupi19KDC4-unsplash.jpg");
+    width: 185px;
+    height: 100px;
+    margin-top: 35px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.season{
+    background-color: rgb(187, 182, 182);
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+    padding-left:120px;
+    padding-top: 60px;
+}
+.season h4{
+    color:  rgba(147, 69, 20, 0.999);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    cursor: auto; 
+}
+.season h2{
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    cursor: auto;
+    font-size: 55px;
+    padding-top: 5px;
+    font-weight:200;
+    cursor: auto;
+}
+.menu{
+    display: flex;
+    gap: 70px;
+    padding-top: 50px;
+    
+}
+.menu1{
+    background-image: url("/images/david-foodphototasty-U5lLwx17rWs-unsplash.jpg");
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    transition: 0.5s, ease;
+}
+.menu2{
+    background-image: url("/images/yuval-zukerman-ED-E7Uq-rAo-unsplash.jpg");
+    width: 620px;
+    height: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    transition: 0.3s, ease;
+}
+
+.menu1:hover{
+    transform: scale(1.05);
+}
+.menu2:hover{
+    transform: scale(1.05);
+}
+
+.menu h4{
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    cursor: auto;
+    color: black;
+    font-size: 25px;
+    padding-top: 410px;
+    font-weight:100;
+    cursor: auto;
+}
+.menu p{
+    color:  rgba(147, 69, 20, 0.999);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    cursor: auto;  
+}
+.season button{
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 15px 25px;
+    margin-top: 120px;
+    margin-left: 520px;
+    border-radius:35px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: black;  
+}
+.season button:hover{
+    color:rgb(231, 218, 218);
+    background-color: black;
+    border: none;
+}
+.links{
+   background-color: rgb(187, 182, 182);
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    padding-left:120px;
+    padding-top: 60px; 
+}
+.links h2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    cursor: auto;
+    color: black;
+    font-size: 55px;
+    padding-top: 85px;
+    font-weight:200;
+    cursor: auto;
+}
+.links p{
+    color:  black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    cursor: auto; 
+    padding-top: 30px;
+    max-width: 1000px;
+    padding-left: 400px;
+    text-align: center;
+}
+.links button{
+    padding: 16px 28px;
+    border-radius:25px;
+    border: none;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color:  rgb(187, 182, 182); 
+    cursor: pointer;
+    background-color: black;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.links button:hover{
+    background-color:rgba(245, 145, 15, 0.999);
+    color: white;
+}
+.socials a i:hover{
+    color:rgb(199, 121, 19);
+    /* background-color: black; */
+}
+.socials{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 550px;
+    gap: 20px;
+}
+.socials a{
+    text-decoration: none;
+}
+.socials a i{
+    color: black;
+}
+.location{
+    width: 100%;
+    height: 1600px;
+    background-color: black;
+}
+.location h2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    cursor: auto;
+    color: rgb(232, 225, 225);
+    font-size: 55px;
+    padding-top: 85px;
+    font-weight:200;
+    cursor: auto;
+}
+.location p{
+    color:  rgb(236, 230, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    cursor: auto; 
+    max-width: 1000px;
+}
+.pics{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 120px;
+}
+.pic1{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    background-image: url(/images/nikita-barskov-iSLsIvcvIKg-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.pic2{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    background-image: url(/images/spacejoy-GQQyH0yNqLk-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.pic3{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    background-image: url(/images/spacejoy-GQQyH0yNqLk-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.arrival{
+    display: flex;
+    gap: 80px;
+    padding-top: 70px;
+    padding-left: 130px;
+}
+.map{
+    width: 600px;
+    height: 400px;
+    background-color:rgb(44, 42, 42);
+    border-radius: 15px;
+    text-align: center;
+}
+.map h5{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    font-size: 25px;
+    color:rgb(216, 212, 212);
+    font-weight: 100px;
+    padding-top: 20px;
+}
+.map h6{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    cursor: ponter;
+    font-size: 20px;
+    color:rgb(216, 212, 212);
+    font-weight: 100px;
+    padding-top: 20px;
+}
+
+.map i{
+    color: white;
+    padding-top: 100px;
+}
+.address, .hours{
+    display: flex;
+    gap: 20px;
+} 
+.address1 i, .opening i{
+    color:rgba(245, 145, 15, 0.999);
+}
+.address2 h6, .time h6{
+    font-family:  "Playfair Display", serif;
+    cursor: auto;
+    font-size: 25px;
+    color:rgb(216, 212, 212);
+    font-weight: 70px;
+}
+.address2 p, .time p{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    cursor: auto;
+    font-size: 22px;
+    color:rgb(216, 212, 212);
+    font-weight: 100px;
+    max-width: 210px;
+    padding-bottom: 40px;
+}
+.button-container{
+    display: flex;
+    gap: 10px;
+}
+.button-container button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.btn1 i{
+    padding-right: 10px;
+    cursor: pointer;
+}
+.btn2 button:hover{
+    background-color:rgba(245, 145, 15, 0.999);
+    color: white;
+}
+.footer{
+    display: flex;
+    gap: 270px;
+    padding: 140px 0;
+}
+
+.footer .brand-name h4{
+   color: rgb(187, 182, 182);
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    cursor: auto;
+    margin-left: 130px;
+}
+
+.footer .brand-name p{
+    color: rgb(162, 151, 151);
+    font-family: serif;
+    font-size: 15px;
+    line-height: 1.6;
+    cursor: auto;
+    margin-left: 130px;
+}
+
+.footer .navigate h5{
+    color: rgba(245, 145, 15, 0.999);
+    font-size: 17px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    cursor: auto;
+}
+
+.footer .navigate nav ul{
+    display: block;
+    padding: 0;
+}
+
+.footer .navigate nav ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.footer .connect h5{
+    color: rgba(245, 145, 15, 0.999);
+    font-size: 17px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    cursor: auto;
+}
+.footer .connect a{
+    text-decoration: none;
+}
+.footer .connect a i{
+    color: rgb(187, 182, 182);
+    padding-bottom: 35px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.footer .connect a i:hover{
+    color: rgba(245, 145, 15, 0.999);
+}
+.footer .connect p{
+    font-size: 15px;
+    cursor: auto;
+    color: rgb(162, 151, 151);
+    padding-bottom: 10px;
+}
+hr{
+    border: none;
+    height: 0.5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 85%;
+    margin-top: -100px;
+    margin-left: 120px;
+
+}
+.closing{
+    display: flex;
+    gap: 700px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.privacy{
+    display: flex;
+    gap: 20px;
+    
+}
+.closing p{
+    font-size: 18px;
+    color: rgb(155, 147, 147);
+}
+
+
+
+
+
+
+
+
